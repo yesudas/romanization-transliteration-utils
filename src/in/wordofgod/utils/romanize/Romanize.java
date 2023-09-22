@@ -45,7 +45,7 @@ public class Romanize {
 			languageCode = args[0];
 			inputFilePath = args[1];
 
-			outputFilePath = stripExtension() + ".txt";
+			outputFilePath = stripExtension() + "-romanized.txt";
 		}
 		return true;
 	}
