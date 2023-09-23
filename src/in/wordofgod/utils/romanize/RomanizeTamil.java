@@ -36,14 +36,28 @@ public class RomanizeTamil {
 		for (Entry<String, String> item : TamilAlphabets.alphabets.entrySet()) {
 			fileContent = fileContent.replaceAll(item.getKey(), item.getValue());
 		}
-		System.out.println(fileContent);
+		String[] lines = fileContent.split("\n");
+		StringBuilder sb = new StringBuilder();
+		for (String line : lines) {
+			sb.append(capitalizeFirstLetter(line)).append("\n");
+		}
+		System.out.println(sb.toString());
 		File file = new File(Romanize.outputFilePath);
 		try {
-			FileUtils.write(file, fileContent, "UTF-8");
+			FileUtils.write(file, sb.toString(), "UTF-8");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		System.out.println("Romanization or Translitration for Tamil language is completed...");
 		System.out.println("Result is stored at: " + Romanize.outputFilePath);
+	}
+
+	public static String capitalizeFirstLetter(String str) {
+
+		if (str == null || str.length() == 0)
+			return str;
+
+		return str.substring(0, 1).toUpperCase() + str.substring(1);
+
 	}
 }

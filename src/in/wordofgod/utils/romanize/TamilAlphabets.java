@@ -79,6 +79,20 @@ public class TamilAlphabets {
 		// alphabets.put("டாக", "daaga");
 
 		// Joint alphabets
+		alphabets.put(" தேவா", "devaa");
+		alphabets.put(" தேவி", "devi");
+		alphabets.put(" தேவீ", "devii");
+		alphabets.put(" தேவு", "devu");
+		alphabets.put(" தேவூ", "devuu");
+		alphabets.put(" தேவெ", "deve");
+		alphabets.put(" தேவே", "devae");
+		alphabets.put(" தேவை", "devai");
+		alphabets.put(" தேவொ", "devo");
+		alphabets.put(" தேவோ", "devoo");
+		alphabets.put(" தேவௌ", "devau");
+		alphabets.put(" தேவ்", "dev");
+		alphabets.put(" தேவ", " Deva");
+		
 		alphabets.put("ங்கா", "ngaa");
 		alphabets.put("ங்கி", "ngi");
 		alphabets.put("ங்கீ", "ngii");
@@ -169,19 +183,6 @@ public class TamilAlphabets {
 		alphabets.put("ன்றோ", "nRoo");
 		alphabets.put("ன்றௌ", "nRau");
 		alphabets.put("ன்ற்", "nR");
-
-		alphabets.put("தேவா", "devaa");
-		alphabets.put("தேவி", "devi");
-		alphabets.put("தேவீ", "devii");
-		alphabets.put("தேவு", "devu");
-		alphabets.put("தேவூ", "devuu");
-		alphabets.put("தேவெ", "deve");
-		alphabets.put("தேவே", "devae");
-		alphabets.put("தேவை", "devai");
-		alphabets.put("தேவொ", "devo");
-		alphabets.put("தேவோ", "devoo");
-		alphabets.put("தேவௌ", "devau");
-		alphabets.put("தேவ்", "dev");
 
 		alphabets.put("மாகா", "maagaa");
 		alphabets.put("மாகி", "maagi");
